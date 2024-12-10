@@ -1,0 +1,101 @@
+* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+  background-color: #4f16de;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: wavy ;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #4f16de;
+  color: #fff;
+  margin-top: 20px;
+  position: relative;
+  
+}
+
+/* Main Section */
+main {
+  padding: 20px;
+}
+
+/* Section Styling */
+.section-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.intro-section,
+.form-section {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+button {
+  margin: 10px 0;
+  background-color: #e07919;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px 0;
+}
